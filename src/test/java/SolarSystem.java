@@ -11,5 +11,10 @@ public class SolarSystem {
         Xros.temp = "34324K";
         Xros.Color = "green";
         Xros.Radius = "1000000km";
+
+        Planet2 Earth = new Planet2("Moon", "Sun", "Planets", "Stars");
+        System.out.println("Earth has " + Earth.getMoon() + ", " + Earth.getSun() + ", " + Earth.getPlanets() + ", " + Earth.getStars());
+
+
     }
 }
